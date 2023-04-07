@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.contenedor-stickers{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+}
+
+.sticker-img{
+    height: 115px;
+}
+
+.sticker-input{
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 3px solid #b724ce44;
+    padding-left: 0.5rem;
+
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    background-color: #be95c4c5;
+    border: 3px solid #be95c444;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .contenedor-stickers{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
